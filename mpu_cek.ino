@@ -109,7 +109,7 @@ void setup() {
     Wire.begin();
     Serial2.begin(115200);
     init_MPU();
-
+//oke sudah?
 }
 
 void loop() {
@@ -117,5 +117,5 @@ void loop() {
   Serial2.print(roll_deg)       ;Serial2.print("\t");
   Serial2.print(pitch_deg)      ;Serial2.print("\t");
   Serial2.println();
-//cek1
+
 }
